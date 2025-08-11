@@ -9,8 +9,8 @@ import tatasteel from "../assets/tatasteel.png";
 import havells from "../assets/havells.png";
 import kajaria from "../assets/kajaria.png";
 import ultratech from "../assets/ultratech.png";
-import acc from "../assets/acc.png";
-import dalmia from "../assets/dalmia.png";
+import acc from "../assets/Acc.png";
+import dalmia from "../assets/Dalmia.png";
 import cera from "../assets/cera.png";
 import india from "../assets/india.png";
 
