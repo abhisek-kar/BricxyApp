@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+
+/* Athletics font */
+@font-face {
+  font-family: "Athletics";
+  src: url("/src/assets/fonts/Athletics-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Athletics";
+  src: url("/src/assets/fonts/Athletics-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
