@@ -55,7 +55,7 @@ Our support continues even after delivery — we're just a call away for any fut
   ];
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-16">
+    <div className="max-w-7xl mx-auto px-6 py-16">
       {/* Heading */}
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-[#4D3F39]">

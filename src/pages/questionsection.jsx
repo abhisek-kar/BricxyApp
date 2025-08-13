@@ -40,7 +40,7 @@ const QuestionSection = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-16 space-y-20">
+    <div className="max-w-7xl mx-auto px-6 py-16 space-y-20">
       {/* Reasons Section */}
       <div className="bg-[#7B5D4E] text-white rounded-2xl p-10 relative">
         <button className="absolute top-6 right-6 bg-white text-[#7B5D4E] px-4 py-2 rounded-lg text-sm hover:bg-gray-100 transition">
