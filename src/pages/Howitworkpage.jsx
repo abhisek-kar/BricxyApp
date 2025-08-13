@@ -31,7 +31,7 @@ export default function HowItWorks() {
   return (
     <div className="bg-white min-h-screen">
       {/* Top Section */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">
         <div className="bg-[#F7F4EE] rounded-3xl flex flex-col lg:flex-row items-center gap-8 p-6 sm:p-8">
           {/* Left: Text */}
           <motion.div
@@ -60,7 +60,7 @@ export default function HowItWorks() {
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <img src={houseImg} alt="House" className="w-full rounded-2xl" />
+            <img src={houseImg} alt="House" className="w-full  rounded-2xl" />
           </motion.div>
         </div>
 

@@ -54,8 +54,8 @@ export default function Package() {
   ];
 
   return (
-    <div className="py-16 px-4">
-      <div className="max-w-6xl mx-auto">
+    <div className="py-16 px-6 md:px-12">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl  font-bold text-[#4D3F39] mb-6">
@@ -70,7 +70,7 @@ export default function Package() {
         </div>
 
         {/* Pricing Cards */}
-        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-7xl px-6 mx-auto">
           {plans.map((plan, index) => (
             <div key={index} className="relative bg-white rounded-4xl shadow-lg overflow-hidden">
               {/* Popular badge */}

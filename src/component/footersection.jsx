@@ -9,7 +9,7 @@ const Footersection = () => {
     <footer className="mt-10">
   {/* Top Section */}
   <div className="bg-[#F7F6F5] rounded-t-4xl">
-    <div className="max-w-5xl mx-auto px-6 py-10 md:px-12 flex flex-col md:flex-row justify-between">
+    <div className="max-w-7xl mx-auto px-6 py-10 md:px-12 flex flex-col md:flex-row justify-between">
       
       {/* Column 1 */}
       <div className="mb-8 md:mb-0 md:w-1/2">

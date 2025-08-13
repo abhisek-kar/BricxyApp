@@ -1,23 +1,5 @@
 @import "tailwindcss";
-
-
-/* Athletics font */
-@font-face {
-  font-family: "Athletics";
-  src: url("/src/assets/fonts/Athletics-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Athletics";
-  src: url("/src/assets/fonts/Athletics-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
+@reference "tailwindcss";
 
 
 @keyframes scroll {
@@ -27,4 +9,32 @@
 
 .animate-scroll {
   animation: scroll 20s linear infinite;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: "Athletic";
+  src: url("../src//assets/fonts/Athletics Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@layer base {
+  body {
+    font-family: "Athletic";
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Young Serif";
+  }
 }

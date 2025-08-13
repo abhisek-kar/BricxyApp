@@ -61,7 +61,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-white relative z-40">
-      <div className="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center  px-6 md:px-12 py-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <Link to="/" onClick={() => setMenuOpen(false)}>
