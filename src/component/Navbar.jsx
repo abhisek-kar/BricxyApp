@@ -67,39 +67,48 @@ export default function Navbar() {
           <Link to="/" onClick={() => setMenuOpen(false)}>
             <img src={logo} className="h-8 cursor-pointer" alt="BRICXY Logo" />
           </Link>
-
         </div>
 
         {/* Desktop Menu */}
         <div className="mt-3 hidden md:block">
           <ul className="flex space-x-8 text-[#4D3F39] font-medium">
-
-
             <li>
-              <Link to="/how-it-works" className="hover:text-blue-600 text-[14px]">
+              <Link
+                to="/how-it-works"
+                className="hover:text-blue-600 text-[14px]"
+              >
                 How it works
               </Link>
             </li>
             <li>
-              <Link to="/how-it-works" className="hover:text-blue-600 text-[14px]">
+              <Link to="/catlogue" className="hover:text-blue-600 text-[14px]">
                 Catalogue
               </Link>
-            </li> <li>
-              <Link to="/how-it-works" className="hover:text-blue-600 text-[14px]">
+            </li>{" "}
+            <li>
+              <Link
+                to="/how-it-works"
+                className="hover:text-blue-600 text-[14px]"
+              >
                 Projects
               </Link>
-            </li> <li>
-              <Link to="/how-it-works" className="hover:text-blue-600 text-[14px]">
+            </li>{" "}
+            <li>
+              <Link
+                to="/how-it-works"
+                className="hover:text-blue-600 text-[14px]"
+              >
                 Testimonial
               </Link>
             </li>
             <li>
-              <Link to="/how-it-works" className="hover:text-blue-600 text-[14px]">
+              <Link
+                to="/how-it-works"
+                className="hover:text-blue-600 text-[14px]"
+              >
                 Cost calculator
               </Link>
             </li>
-
-
           </ul>
         </div>
 
@@ -154,7 +163,6 @@ export default function Navbar() {
         </div>
       </div>
 
-
       {/* Mobile Overlay + Drawer */}
       {menuOpen && (
         <div
@@ -190,10 +198,10 @@ export default function Navbar() {
             >
               {[
                 { label: "How it works", link: "/how-it-works" },
-                { label: "Catalogue", link: "#" },
+                { label: "Catalogue", link: "/catlogue" },
                 { label: "Projects", link: "#" },
                 { label: "Testimonial", link: "#" },
-                { label: "Cost calculator", link: "#" }
+                { label: "Cost calculator", link: "#" },
               ].map((item, i) => (
                 <motion.li
                   key={item.label}
@@ -209,12 +217,9 @@ export default function Navbar() {
                   >
                     {item.label}
                   </Link>
-
                 </motion.li>
               ))}
             </motion.ul>
-
-
 
             {/* Location selector */}
             <div className="mt-6" ref={mobileCityRef}>
@@ -257,7 +262,6 @@ export default function Navbar() {
           </div>
         </div>
       )}
-
     </nav>
   );
 }

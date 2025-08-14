@@ -5,6 +5,7 @@ import Navbar from "./component/Navbar";
 import Home from "./Home";
 import HowItWorks from "./pages/Howitworkpage";
 import Footersection from "./component/footersection";
+import Catlogue from "./pages/Catlogue";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/catlogue" element={<Catlogue/>}/>
       </Routes>
       <Footersection /> 
     </Router>
